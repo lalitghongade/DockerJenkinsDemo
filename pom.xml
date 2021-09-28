@@ -64,6 +64,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>eduflex-backend</finalName>
     </build>
 
 </project>
