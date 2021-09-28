@@ -53,7 +53,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${project.parent.version}</version>
+                <version>2.4.10</version>
                 <configuration>
                     <excludes>
                         <exclude>
