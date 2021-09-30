@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Clean and install') {
+        stage('Compile and Clean') {
             steps {
 
-                sh "mvn clean install"
+                sh "mvn clean compile"
             }
         }
 
