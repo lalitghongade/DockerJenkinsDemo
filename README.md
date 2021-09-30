@@ -1,22 +1,41 @@
 # EduFlex
-The Eduflex Project backend developed using Java Spring Boot framework and we added dependencies of Spring web, H2 database, JPA, Spring Boot DevTool and Lambok in our project and for frontend we have used Angular, HTML, CSS, and TypeScript.
+The Eduflex Project backend developed using Java **Spring Boot framework** and we added dependencies of Spring web, H2 database, JPA, Spring Boot DevTool and Lambok in our project and for frontend we have used Angular, HTML, CSS, and TypeScript.
 
 The EduFlex has 3 User Interfaces, The HOD Side, that can see overall summary charts of students performance, staffs performances, courses, subjects, leave, etc. Staff/faculty Side, can see the overall summary charts related to their students, their subjects, leave status, etc. and Student Side, that can see the overall summary charts related to their attendance, their subjects, leave status, etc.
 
 ## Technologies Used
 
+### Frontend
+
+* Angular
+* TypeScript
+* Boostrap
+* HTML
+* CSS
+
+### Backend
+* Java
+* Rest
+* Spring Framwork
 * Spring Boot
 * Swagger
 * Maven
-* Angular
-* TypeScript
-* HTML
-* CSS
+
+### DevOps
+* Git
+* AWS
+* Jenkins
+* Docker
+
+### Testing
 * JUnit
 * Mockito
 * Karma
 * Jasmine
-* Git
+
+### IDE
+* Eclipse IDE
+* Visual Studio Code
 
 ## Features
 
@@ -45,10 +64,12 @@ The EduFlex has 3 User Interfaces, The HOD Side, that can see overall summary ch
 
 This is a group project, below the list of contributors.
 
+```
 * Akshay Saragr
 * Lalit Ghongade
 * Mohammad Wakeel
 * Kumari Sruchi Suman
+```
 
 ## License
 
