@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Compile and Clean') {
+        stage('Clean and install') {
             steps {
 
                 sh "mvn clean install"
