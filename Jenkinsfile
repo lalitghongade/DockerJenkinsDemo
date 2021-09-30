@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Compile and Clean') {
             steps {
-            def mvnHome = tool name: 'Apache Maven 3.8.1', type: 'maven'
-            sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
+            sh "mvn clean compile"
             }
         }
 
