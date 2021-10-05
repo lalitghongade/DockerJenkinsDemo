@@ -40,7 +40,7 @@ pipeline {
         stage('Docker deploy'){
             steps {
 
-                sh 'docker run -itd -p  8081:8080 lala14/eduflex-backend:${BUILD_NUMBER}'
+                sh 'docker run -itd -p  2021:2020 lala14/eduflex-backend:${BUILD_NUMBER}'
             }
         }
 
