@@ -1,18 +1,18 @@
 pipeline {
     agent any
-    stages {
-        stage('Compile and Clean') {
-            steps {
-            sh "mvn clean compile"
-            }
-        }
+         stages {
+            stage('Compile and Clean') {
+                steps {
+                       sh "mvn clean compile"
+                       }
+                }
 
 
-        stage('deploy') {
-            steps {
-                sh "mvn package"
-            }
-        }
+            stage('deploy') {
+                steps {
+                 sh "mvn package"
+                 }
+                  }
         
         stage('Build Docker image'){
             steps {
@@ -50,5 +50,4 @@ pipeline {
             }
         }
     }
- }
 }
